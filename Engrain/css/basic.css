@@ -1,0 +1,140 @@
+body {
+	background: #FFFFFF;
+	
+	
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 80px 200px;
+  gap: 10px;
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+
+
+/* Header CSS */
+.header {
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 40px;
+	
+	position: absolute;
+	width: 1920px;
+	height: 101px;
+	left: calc(50% - 1920px/2);
+	top: 0px;
+	
+	border: 2px solid #EDEFF2;
+}
+.headerIMG img{
+	width: 267px;
+	height: 53px;
+	
+	background: url(https://www.figma.com/file/nMz8h9STi92YozacwG5eXP/Splash-Page-Template?node-id=2%3A65);
+	
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.header div{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0px;
+	gap: 40px;
+	
+	width: 771px;
+	height: 101px;
+	
+	flex: none;
+	order:1;
+	align-self: stretch;
+	flex-grow:0;
+	
+}
+
+.header div ul{
+	list-style-type: none;
+	
+}
+.header div li{
+	float: left;
+	
+}
+
+.header div a{
+		display: block;
+	
+		width: 74px;
+		height:24px;
+		
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+		text-decoration: none;
+		
+		text-align:right;
+		text-transform: capitalize;
+		
+		color: #616366;
+		
+		flex: none;
+		order: 0;
+		flex-grow: 0;
+}
+
+/* Hero Section */
+.hero{
+		position: absolute;
+		width: 1920px;
+		height: 896px;
+		left: 0px;
+		top: 101px;
+	
+}
+
+.heroCard{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 64px;
+	gap: 16px;
+	
+	position: absolute;
+	width: 496px;
+	height: 464px;
+	left:160px;
+	top: 198px;
+	
+	background: #FFFFFF;
+	
+	box-shadow: 0px 16px 24px
+		rgba(0, 0, 0, 0.08);
+	border-radius: 4px;
+	z-index: +1;
+}
+
+.heroIMG {
+	
+	position: absolute;
+	width: 1464px;
+	height: 824px;
+	right: 160px;
+	top: 72px;
+	
+	/*background: url(https://s3-alpha-sig.figma.com/img/940d/af71/899c0110009f774c0131d9ece2f2f820?Expires=1659916800&Signature=VWxKHVSIP2Wjl8zJlTb4rhAqVc6NTTzOnhmb1oKMigngineM22YxCK2ydoh39i8fk7eT-1HWslbc1WLA0d60GOsSXZ6QnvP-9EUBOQY6hEn1lDv5ujJmhRDSjq~i8X6j9kuhD2bmd0W0gadRZaS-dq2JtZO2VFrHpl-Lv4IHzTFWk-eCeen27-euhHdsnyertkIR8RlOMXJaTnTXDz3JtK33cumEu2LYSC-y0Af9bU6edqYvB9msZGqT9EC0Vk35FUs8lX7VXYCsLQfzBiT7W9jF42~2~ok9SEyB~cFIN0QpaVI36t8W2RwbUsVpT4RB2fYfcn8-1M-FakGyjCsJKA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+	*/
+	filter: drop-shadow(0px 16px 24px rgba(0, 0, 0, 0.08));
+	border-radius: 8px;
+
+	
+}
